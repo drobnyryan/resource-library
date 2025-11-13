@@ -1,0 +1,32 @@
+[
+{
+"title": "Climate Action Toolkit 2025",
+"summary": "A concise guide for small cities developing climate action plans.",
+"link": "https://example.org/climate_toolkit_2025.pdf",
+"category": "Climate Planning",
+"tags": ["climate", "planning", "toolkit"],
+"source": "EPA",
+"year": 2025,
+"type": "PDF"
+},
+{
+"title": "Overdose Prevention: Local Data Guide",
+"summary": "Step-by-step guide to building a local overdose tracking dashboard.",
+"link": "https://example.org/overdose_data_guide.html",
+"category": "Public Health",
+"tags": ["health", "data", "overdose"],
+"source": "County Health Dept",
+"year": 2024,
+"type": "Web"
+},
+{
+"title": "Volunteer Management Basics",
+"summary": "Short PDF on best practices for volunteer recruitment and retention.",
+"link": "https://example.org/volunteer_basics.pdf",
+"category": "Operations",
+"tags": ["volunteer", "management", "ops"],
+"source": "Nonprofit Resource Center",
+"year": 2021,
+"type": "PDF"
+}
+]
