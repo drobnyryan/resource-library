@@ -22,11 +22,12 @@ def load_resources():
 
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
-resources = load_resources()
+  resources = load_resources()
+  
 # Optionally sort by year or title
-resources = sorted(resources, key=lambda r: (-r.get("year", 0), r.get("title", "")))
-return templates.TemplateResponse("index.html", {"request": request, "resources": resources})
+  resources = sorted(resources, key=lambda r: (-r.get("year", 0), r.get("title", "")))
+  return templates.TemplateResponse("index.html", {"request": request, "resources": resources})
 
 @app.get("/api/resources")
 async def api_resources():
-return load_resources()
+  return load_resources()
